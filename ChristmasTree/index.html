@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#23cd19">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00a300">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Елочка, гори!</title>
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<div class="logo">
+				<img src="img/logo.png" alt="Елочка, гори! Производство искусственных елок и украшений">
+			</div>
+			<div class="phone-block">
+				<div class="phone-block__item">
+					<p class="phone-block__text">Есть вопросы? Звоните!</p>
+					<div class="phone-block__numbers">
+						<p class="phone-block__number">8 (800) 200-40-17</p>
+						<p class="phone-block__number">+7 (499) 404-14-31</p>
+					</div>
+				</div>
+				<div class="phone-block__item">
+					<p class="phone-block__mail">info@elockagori.ru</p>
+					<button class="btn btn--red phone-block__btn">Заказать звонок</button>
+				</div>
+			</div><!-- ./phone-block -->
+		</div><!-- ./header__inner -->
+	</div><!-- ./container -->
+</header>
+
+<!-- Nav -->
+<nav class="nav">
+	<div class="container">
+		<ul class="nav__list">
+			<li class="nav__item">
+				<a href="#" class="nav__link">Искусственные елки</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link">Живые елки</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link">Елочки из конфет</a>
+			</li>
+			<li class="nav__item">
+				<a href="#" class="nav__link">Украшения для елок</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<!-- Intro -->
+<section class="intro">
+	<div class="container">
+		<div class="intro__inner">
+			<h1 class="intro__title">
+				<span>Используйте все возможности</span>
+				<span>приближающегося праздника!</span>
+			</h1>
+			<p class="intro__text">
+				Закажите новогодний набор сейчас и получите дополнительную <span class="bold">скидку 15%</span> от оптовых цен!
+			</p>
+			<div class="wholesale-prices intro__offer">
+				<h3 class="wholesale-prices__title">Получи оптовые цены сейчас</h3>
+				<form action="" class="wholesale-prices__form">
+					<input class="input wholosale-prices__input" type="text" placeholder="Ваше имя">
+					<input class="input wholosale-prices__input" type="text" placeholder="Ваш телефон">
+				</form>
+				<a href="#" class="btn btn--red wholesale-prices__link">Скачать прайс</a>
+			</div><!-- wholesale-prices -->
+		</div><!-- ./intro__inner -->
+	</div><!-- ./container -->
+</section>
+
+<!-- About-us -->
+<section class="about-us section">
+	<div class="container">
+		<h2 class="section-title section__title section-title--green">О нас</h2>
+		<div class="about-us__inner">
+			<div class="about-us__item">
+				<img src="img/about-us/about-us-1.png" alt="Награда" class="about-us__icon">
+				<p class="about-us__text"><span class="bold">Мы производители</span><br> Вы получите гарантию <br> лучших цен</p>
+			</div>
+			<div class="about-us__item">
+				<img src="img/about-us/about-us-2.png" alt="Грузовик" class="about-us__icon">
+				<p class="about-us__text"><span class="bold">Бесплатная доставка</span><br> по всей России</p>
+			</div>
+			<div class="about-us__item">
+				<img src="img/about-us/about-us-3.png" alt="Кошелек" class="about-us__icon">
+				<p class="about-us__text"><span class="bold">Ниже оптовых цен</span><br> конкурентов на 17-23%</p>
+			</div>
+			<div class="about-us__item">
+				<img src="img/about-us/about-us-4.png" alt="Домашний уют" class="about-us__icon">
+				<p class="about-us__text"><span class="bold">163000 семей</span><br> встретили 2015 год <br> с нами</p>
+			</div>
+		</div><!-- ./about-us__inner -->
+	</div><!-- ./container -->
+</section>
+
+<!-- Offer -->
+<section class="offer">
+	<div class="container">
+		<div class="offer__inner">
+			<div class="offer__content">
+				<h2 class="offer__title">Закажите до 10 ноября</h2>
+				<p class="offer__subtitle">на сумму от 100 000 рублей <br> и получите дополнительную скидку 15%</p>
+				<p class="offer__text">В декабре скидка 5%</p>
+				<form class="offer__form action">
+					<input class="input offer__input" type="text" placeholder="Ваше имя">
+					<input class="input offer__input" type="text" placeholder="Ваш телефон">
+					<button class="btn btn--green offer__btn" type="submit">Оставить заявку</button>
+				</form>
+			</div><!-- ./offer__content -->
+		</div><!-- ./offer__inner -->
+	</div><!-- ./container -->
+</section>
+
+<!-- Orders -->
+<section class="orders">
+	<div class="container">
+		<div class="orders__inner">
+			<p class="orders__text">У нас уже заказали:</p>
+			<div class="orders__numbers">
+				<span class="orders__number">1</span>
+				<span class="orders__number">5</span>
+			</div>
+			<p class="orders__text">человек</p>
+		</div>
+	</div>
+</section>
+
+<!-- Sets -->
+<section class="sets section">
+	<div class="container">
+		<h2 class="section-title">Наши эффективные наборы</h2>
+		<p class="sets__subtitle">
+			Мы разработали для Вас готовые наборы на основе статистики наших клиентов!
+		</p>
+		<div class="sets__inner">
+			<div class="sets__col">
+				<div class="sets__item">
+					<div class="sets__list">
+						<img src="img/chiristmas-tree/christmas-sets.jpg" alt="Набор елок" class="sets__photo">
+						<ul class="sets__sizes">
+							<li class="sets__block">
+								<img src="img/icons/christmas-tree-icon.png" alt="Украшенная елка">
+								<p class="sets__size">40 см. - 100 шт.</p>
+							</li>
+							<li class="sets__block">
+								<img src="img/icons/christmas-tree-icon.png" alt="Украшенная елка">
+								<p class="sets__size">80 см. - 50 шт.</p>
+							</li>
+							<li class="sets__block">
+								<img src="img/icons/christmas-tree-icon.png" alt="Украшенная елка">
+								<p class="sets__size">1500 см. - 30 шт.</p>
+							</li>
+							<li class="sets__block">
+								<img src="img/icons/christmas-tree-icon.png" alt="Украшенная елка">
+								<p class="sets__size">2000 см. - 50 шт.</p>
+							</li>
+						</ul><!-- ./sets__sizes -->
+					</div><!-- ./sets__list -->
+					<div class="sets__description">
+						<p class="sets__text">
+							Срок реализации - <span class="bold">1 месяц</span>
+						</p>
+						<p class="sets__text">
+							Ваша закупка - <span class="bold">1 месяц</span>
+						</p>
+						<p class="sets__text">
+							Ваша закупка - <span class="bold">1 месяц</span>
+						</p>
+					</div><!-- ./sets__description -->
+					<button class="btn btn--red sets__btn">Оставить заявку</button>
+				</div><!-- ./sets__item -->
+			</div><!-- ./sets__col -->
+			<div class="sets__col">
+				<div class="sets__item">
+					<div class="sets__list">
+						<img src="img/chiristmas-tree/christmas-sets.jpg" alt="Набор елок" class="sets__photo">
+						<ul class="sets__sizes">
+							<li class="sets__block">
+								<img src="img/icons/christmas-tree-icon.png" alt="Украшенная елка">
+								<p class="sets__size">40 см. - 100 шт.</p>
+							</li>
+							<li class="sets__block">
+								<img src="img/icons/christmas-tree-icon.png" alt="Украшенная елка">
+								<p class="sets__size">80 см. - 50 шт.</p>
+							</li>
+							<li class="sets__block">
+								<img src="img/icons/christmas-tree-icon.png" alt="Украшенная елка" class="sets-item__icon">
+								<p class="sets__size">1500 см. - 30 шт.</p>
+							</li>
+							<li class="sets__block">
+								<img src="img/icons/christmas-tree-icon.png" alt="Украшенная елка">
+								<p class="sets__size">2000 см. - 50 шт.</p>
+							</li>
+						</ul><!-- ./sets__sizes -->
+					</div><!-- ./sets__list -->
+					<div class="sets__description">
+						<p class="sets__text">
+							Срок реализации - <span class="bold">1 месяц</span>
+						</p>
+						<p class="sets__text">
+							Ваша закупка - <span class="bold">1 месяц</span>
+						</p>
+						<p class="sets__text">
+							Ваша закупка - <span class="bold">1 месяц</span>
+						</p>
+					</div><!-- ./sets__description -->
+					<button class="btn btn--red sets__btn">Оставить заявку</button>
+				</div><!-- ./sets__item -->
+			</div><!-- ./sets__col -->
+		</div><!-- ./sets__inner -->
+	</div><!-- ./container -->
+</section>
+
+<!-- Reviews -->
+<section class="reviews section--small">
+	<div class="container">
+		<h2 class="section-title section__title">Отзывы о нас</h2>
+		<div class="reviews__inner">
+			<div class="reviews__item">
+				<img src="img/comments/man.png" alt="Мужчинна" class="reviews__avatar">
+				<div class="reviews__content">
+					<div class="reviews__heading">
+						<p class="reviews__name">Имя:.............</p>
+						<p class="reviews__time">Заказывал:.............</p>
+						<p class="reviews__price">Сумма заказа:..........</p>
+					</div>
+					<p class="reviews__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов</p>
+					<a href="#" class="btn btn--green reviews__btn">Заказать этот же набор</a>
+				</div><!-- ./reviews__content -->
+			</div><!-- ./reviews__item -->
+			<div class="reviews__item">
+				<img src="img/comments/man.png" alt="Мужчинна" class="reviews__avatar">
+				<div class="reviews__content">
+					<div class="reviews__heading">
+						<p class="reviews__name">Имя:.............</p>
+						<p class="reviews__time">Заказывал:.............</p>
+						<p class="reviews__price">Сумма заказа:..........</p>
+					</div>
+					<p class="reviews__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов</p>
+					<a href="#" class="btn btn--green reviews__btn">Заказать этот же набор</a>
+				</div><!-- ./reviews__content -->
+			</div><!-- ./reviews__item -->
+			<div class="reviews__item">
+				<img src="img/comments/man.png" alt="Мужчинна" class="reviews__avatar">
+				<div class="reviews__content">
+					<div class="reviews__heading">
+						<p class="reviews__name">Имя:.............</p>
+						<p class="reviews__time">Заказывал:.............</p>
+						<p class="reviews__price">Сумма заказа:..........</p>
+					</div>
+					<p class="reviews__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов</p>
+					<a href="#" class="btn btn--green reviews__btn">Заказать этот же набор</a>
+				</div><!-- ./reviews__content -->
+			</div><!-- ./reviews__item -->
+			<div class="reviews__item">
+				<img src="img/comments/man.png" alt="Мужчинна" class="reviews__avatar">
+				<div class="reviews__content">
+					<div class="reviews__heading">
+						<p class="reviews__name">Имя:.............</p>
+						<p class="reviews__time">Заказывал:.............</p>
+						<p class="reviews__price">Сумма заказа:..........</p>
+					</div>
+					<p class="reviews__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов</p>
+					<a href="#" class="btn btn--green reviews__btn">Заказать этот же набор</a>
+				</div><!-- ./reviews__content -->
+			</div><!-- ./reviews__item -->
+		</div><!-- ./reviews__inner -->
+	</div><!-- ./container -->
+</section>
+
+<!-- Production -->
+<section class="production section">
+	<div class="container">
+		<h2 class="section-title section__title">Наше производство</h2>
+		<div class="production__inner">
+			<div class="production__item">
+				<img src="img/production/production-1.jpg" alt="Проверка елки на качество" class="production__img">
+				<h4 class="production__title">Контроль качества продукции</h4>
+			</div>
+			<div class="production__item">
+				<img src="img/production/production-2.jpg" alt="Искусственные елки" class="production__img">
+				<h4 class="production__title">Пример выкладки</h4>
+			</div>
+			<div class="production__item">
+				<img src="img/production/production-3.jpg" alt="Украшения для елок" class="production__img">
+				<h4 class="production__title">Сопутствующие товары</h4>
+			</div>
+		</div><!-- ./production__inner -->
+	</div><!-- ./container -->
+</section>
+
+<!-- Artificial Christmas tree catalog -->
+<section class="artificial-christmas-tree section">
+	<div class="container">
+		<h2 class="section-title section__title section-title--white">Каталог искусственных елок</h2>
+		<div class="row">
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+		</div><!-- ./row-->
+	</div><!-- ./container-->
+</section>
+
+<!-- Live Christmas tree catalog -->
+<section class="section section--gray">
+	<div class="container">
+		<h2 class="section-title section__title">Каталог живых елок</h2>
+		<div class="row">
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+		</div><!-- ./row-->
+	</div><!-- ./container-->
+</section>
+
+<!-- Catalog of sweets Christmas tree -->
+<section class="sweets-tree section">
+	<div class="container">
+		<h2 class="section-title section__title section-title--white">Каталок елочок из конфет</h2>
+		<div class="row">
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+		</div><!-- ./row-->
+	</div><!-- ./container-->
+</section>
+
+<!-- Live Christmas tree catalog -->
+<section class="section section--gray">
+	<div class="container">
+		<h2 class="section-title section__title">Каталог украшений для елок</h2>
+		<div class="row">
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+			<div class="christmas-tree-item">
+				<div class="christmas-tree-item__content">
+					<img src="img/chiristmas-tree/сhristmas-tree.jpg" alt="" class="christmas-tree-item__img">
+					<h4 class="christmas-tree-item__title">Датская ёлка <span>(1-1,25 метров)</span></h4>
+					<p class="christmas-tree-item__description">Небольшое описание елок <span>на 2 строки.</span></p>
+					<div class="christmas-tree-item__price">
+						<p class="christmas-tree-item__text">Цена за 10 шт. - <span class="bold">1 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 50 шт. - <span class="bold">5 500 руб.</span></p>
+						<p class="christmas-tree-item__text">Цена за 100 шт. - <span class="bold">11 500 руб.</span></p>
+					</div>
+				</div>
+				<a href="#" class="btn btn--red christmas-tree-item__btn">Оставить заявку</a>
+			</div><!-- ./christmas-tree-item -->
+		</div><!-- ./row-->
+	</div><!-- ./container-->
+</section>
+
+<section class="map">
+	<div class="container">
+		<div class="map__inner">
+			<div class="map__contacts">
+				<h2 class="map__contacts-title">Контакты</h2>
+				<p class="map__text map__address">Москва, Павелецкая наб., <br> дом 2, строение 5</p>
+				<p class="map__text map__work-time">Работаем без выходных <br> с 9:00 до 18:00</p>
+				<p class="map__text map__phone-number">8 (499) 136-44-76</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="logo">
+				<img src="img/logo.png" alt="Елочка, гори! Производство искусственных елок и украшений">
+			</div>
+			<div class="phone-block">
+				<div class="phone-block__item">
+					<p class="phone-block__text">Есть вопросы? Звоните!</p>
+					<div class="phone-block__numbers">
+						<p class="phone-block__number">8 (800) 200-40-17</p>
+						<p class="phone-block__number">+7 (499) 404-14-31</p>
+					</div>
+				</div>
+				<div class="phone-block__item">
+					<p class="phone-block__mail">info@elockagori.ru</p>
+					<button class="btn btn--red phone-block__btn">Заказать звонок</button>
+				</div>
+			</div><!-- ./phone-block -->
+		</div><!-- ./footer__inner -->
+	</div><!-- ./container -->
+</footer>
+
+
+
+
+</body>
+</html>

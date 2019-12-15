@@ -1,5 +1,5 @@
 body {
-	font-family: 'Gotham Pro';
+	font-family: 'Gotham Pro', sans-serif;
 	color: #292929;
 }
 
@@ -130,8 +130,8 @@ ul, li {
 }
 
 .logo__img {
-	height: 38px;
-	width: 40px;
+	height: 40px;
+	width: 38px;
 	margin-right: 14px;
 	fill: #292929;
 }
@@ -139,6 +139,8 @@ ul, li {
 .logo__title {
 	margin-bottom: 9px;
 	font-size: 2rem;
+	font-weight: 700;
+	color: #292929;
 	text-transform: uppercase;
 }
 
@@ -155,6 +157,10 @@ ul, li {
 
 .logo--footer .logo__img {
 	fill: #fff;
+}
+
+.logo--footer .logo__title {
+	color: #fff;
 }
 
 .logo--footer .logo__subtitle {
@@ -187,6 +193,8 @@ ul, li {
 }
 
 .phone-block--footer {
+	flex-direction: column;
+    align-items: flex-end;
 	color: #fff;
 }
 

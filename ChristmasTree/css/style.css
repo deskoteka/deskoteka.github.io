@@ -98,10 +98,8 @@ ul, li {
 	text-decoration: none;
 	cursor: pointer;
 	border: 0;
-	outline: 0;
 	box-shadow: 0 5px 10px rgba(0, 1, 3, 0.17);
 	border-radius: 5px;
-	background-color: #368c02;
 	-webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -113,12 +111,34 @@ ul, li {
 	box-shadow: none;
 }
 
+.btn:focus {
+	outline: none;
+}
+
 .btn--red {
+	background-color: #640000;
 	background-image: linear-gradient(to top, #640000 0%, #640000 3%, #8c0202 5%, #e30000 100%);
 }
 
+.btn--red:hover {
+	background-image: none;
+}
+
+.btn--red:focus {
+	box-shadow: 0 0 0 4px #3da001;
+}
+
 .btn--green {
+	background-color: #2d7700;
 	background-image: linear-gradient(to top, #2d7700 0%, #2d7700 3%, #3c9b02 5%, #44b300 100%);
+}
+
+.btn--green:hover {
+	background-image: none;
+}
+
+.btn--green:focus {
+	box-shadow: 0 0 0 4px #2d7700;
 }
 
 
@@ -130,9 +150,20 @@ ul, li {
 	border: 1px solid #d0d0d0;
 	background-color: #f7f7f7;
 	outline: none;
+	transition: all .2s linear;
+}
+
+.input:focus {
+	box-shadow: 0 0 0 3px #3da001;
 }
 
 .input::placeholder {
+	font-size: 16px;
+	color: #626262;
+	font-style: italic;
+}
+
+.input:-ms-input-placeholder {
 	font-size: 16px;
 	color: #626262;
 	font-style: italic;
@@ -214,7 +245,8 @@ ul, li {
 	color: #fff;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__link:focus {
 	text-decoration: none;
 }
 
@@ -409,23 +441,9 @@ ul, li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
-	z-index: 1;
 	background-color: #fff;
 	box-shadow: 0 4px 5px rgba(0, 1, 3, 0.2);
 	border-radius: 10px;
-}
-
-.orders__number:after {
-	content: "";
-	display: block;
-	width: 45px;
-	height: 1px;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	z-index: 2;
-	background-color: #e8e8e8;
 }
 
 .orders__number:first-child {
@@ -482,7 +500,7 @@ ul, li {
 }
 
 .sets__size {
-	margin-left: 1.4rem;
+	margin-left: 1rem;
 	font-size: 1.6rem;
 	color: #000;
 }
@@ -517,13 +535,15 @@ ul, li {
 .reviews__item {
 	display: flex;
 	align-items: flex-start;
-	flex-basis: 50%;
+	width: 50%;
 	margin-bottom: 5rem;
 	padding: 0 10px;
 }
 
 .reviews__avatar {
+	height: 140px;
 	margin-right: 2rem;
+	border-radius: 50%;
 }
 
 .reviews__heading {
@@ -539,7 +559,7 @@ ul, li {
 
 .reviews__btn {
 	font-size: 1.8rem;
-    padding: 1.7rem 4.2rem;
+    padding: 1.7rem 4rem;
 }
 
 
@@ -615,7 +635,7 @@ ul, li {
 }
 
 .christmas-tree-item__btn {
-	padding: 1.6rem 2.6rem;
+	padding: 1.6rem 2.4rem;
 }
 
 
@@ -633,7 +653,7 @@ ul, li {
 
 /* Map */
 .map {
-	background: url('../img/bg/map.jpg');
+	background: url('../img/bg/map.jpg') no-repeat center top / cover;
 }
 
 .map__inner {

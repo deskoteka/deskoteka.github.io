@@ -392,7 +392,7 @@ ul, li {
 }
 
 .offer__input {
-	width: 410px;
+	width: 400px;
 	padding: 1.8rem 2rem;
 }
 
@@ -416,6 +416,7 @@ ul, li {
 	text-transform: uppercase;
 	box-shadow: inset 0 14px 21px rgba(0, 1, 3, 0.27);
 	background-color: #a80d19;
+	text-align: center;
 }
 
 .orders__inner {
@@ -590,6 +591,9 @@ ul, li {
 
 /* Christmas-tree-item */
 .christmas-tree-item {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 	margin: 0 10px;
 	margin-bottom: 2rem;
 	font-size: 1.4rem;
@@ -719,4 +723,308 @@ ul, li {
 	justify-content: space-between;
 	align-items: center;
 	padding: 2rem 0;
+}
+
+/* Burger */
+.burger {
+	display: none;
+	padding: 13px 2px;
+	outline: 0;
+	border: 0;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.burger__item {
+	display: block;
+	width: 30px;
+	height: 3px;
+	position: relative;
+	font-size: 0;
+	color: transparent;
+	background-color: #43b000;
+}
+
+.burger__item:before,
+.burger__item:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #43b000;
+}
+
+.burger__item:before {
+	bottom: 8px;
+}
+
+.burger__item:after {
+	top: 8px;
+}
+
+
+/* Media */
+@media (max-width: 970px) {
+	.sets__list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sets__photo {
+		margin-right: 0;
+		margin-bottom: 2rem;
+	}
+
+	.reviews__btn {
+		padding: 1.7rem 2rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.intro__title {
+		font-size: 4rem;
+	}
+
+	.intro__title span:last-child {
+		font-size: 3.4rem;
+	}
+
+	.intro__text {
+		margin-bottom: 6rem;
+		font-size: 2.5rem;
+	}
+
+	.offer__inner {
+		align-items: center;
+	}
+
+	.offer__title {
+		font-size: 4.5rem;
+	}
+
+	.offer__subtitle {
+		font-size: 3.3rem;
+	}
+
+	.offer__text {
+		font-size: 2.5rem;
+	}
+
+	.orders__text {
+		font-size: 3rem;
+	}
+
+	.reviews__item {
+		width: 100%;
+	}
+}
+
+@media (max-width: 750px) {
+	.sets__description {
+		font-size: 1.5rem;
+	}
+
+	.about-us__item {
+		flex-basis: 50%;
+	}
+}
+
+@media (max-width: 700px) {
+	.phone-block--header,
+	.nav {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.intro__inner {
+		padding: 0;
+	}
+
+	.intro__title span:last-child {
+		font-size: 2.5rem;
+	}
+
+	.wholesale-prices__form {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wholosale-prices__input:first-child {
+		margin: 0 0 2rem 0;
+	}
+
+	.section {
+		padding: 4rem 0 3rem;
+	}
+
+	.section-title {
+		font-size: 3rem;
+	}
+
+	.section__title {
+		margin-bottom: 3rem;
+	}
+
+@media (max-width: 700px) {
+	.offer__title {
+		font-size: 3rem;
+	}
+
+	.offer__subtitle {
+		margin-bottom: 2rem;
+		font-size: 2.3rem;
+	}
+
+	.offer__text {
+		margin-bottom: 3rem;
+	}
+
+	.orders__inner {
+		flex-direction: column;
+	}
+
+	.orders__text:first-child,
+	.orders__numbers {
+		margin-bottom: 2rem;
+	}
+
+	.sets__item {
+		padding: 4rem 7.8rem 4rem 7.8rem;
+	}
+
+	.sets__btn {
+		font-size: 1.6rem;
+		padding: 1.4rem .6rem;
+	}
+
+	.map__inner {
+		justify-content: center;
+	}
+
+	.footer__inner {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.logo--footer {
+		margin-bottom: 4rem;
+	}
+}
+
+@media (max-width: 630px) {
+	.intro__title {
+		padding: 1.1rem 1.5rem;
+		margin-bottom: 4rem;
+	}
+
+	.intro__title span:last-child {
+		font-size: 2.2rem;
+	}
+
+	.intro__text {
+		margin-bottom: 3rem;
+		font-size: 2rem;
+	}
+
+	.wholesale-prices__title {
+		margin-bottom: 3rem;
+		font-size: 2.5rem;
+	}
+
+	.sets__description {
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 500px)  {
+	.intro__title {
+		font-size: 2.8rem;
+	}
+
+	.intro__title span:last-child {
+		display: block;
+	}
+
+	.reviews__item {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.reviews__avatar {
+		margin: 0 0 2rem 0;
+	}
+
+	.map__contacts {
+		width: 100%;
+		padding: 4rem 4.5rem 4rem 4.2rem;
+}
+
+@media (max-width: 430px) {
+	.header__inner {
+		justify-content: flex-end;
+	}
+
+	.logo--header {
+		display: none;
+	}
+
+	.intro__offer {
+		padding: 2rem 1rem;
+	}
+
+	.wholesale-prices__link {
+		padding: 1.8rem 4.8rem;
+	}
+
+	.section-title {
+		font-size: 2.5rem;
+	}
+
+	.about-us__item {
+		flex-basis: 100%;
+	}
+
+	.offer__inner {
+		padding: 3rem 0 3rem;
+	}
+
+	.offer__title {
+		font-size: 2.5rem;
+	}
+
+	.offer__subtitle,
+	.offer__text {
+		font-size: 2rem;
+	}
+
+	.offer__input {
+		width: 290px;
+	}
+
+	.offer__btn {
+		padding: 2.3rem 6rem;
+	}
+
+	.orders {
+		font-size: 2.5rem;
+	}
+
+	.map__text {
+		padding-left: 4.2rem;
+		margin-bottom: 3rem;
+		font-size: 1.5rem;
+	}
+
+	.logo--footer {
+		margin: 0;
+	}
+
+	.phone-block--footer {
+		display: none;
+	}
 }

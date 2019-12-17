@@ -1,0 +1,27 @@
+/* PT Sans Regular */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../fonts/pt-sans-v11-cyrillic-regular.woff2') format('woff2'),
+		 url('../fonts/pt-sans-v11-cyrillic-regular.woff') format('woff');  
+}
+/* PT Sans Italic */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../fonts/pt-sans-v11-cyrillic-italic.woff2') format('woff2'),
+		 url('../fonts/pt-sans-v11-cyrillic-italic.woff') format('woff');
+}
+/* PT Sans Bold */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('../fonts/pt-sans-v11-cyrillic-700.woff2') format('woff2'),
+		 url('../fonts/pt-sans-v11-cyrillic-700.woff') format('woff');
+}
